@@ -3,10 +3,10 @@ package main.java.list.Pesquisa;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrdenacaoNumeros {
+public class SomaNumeros {
     private List<Integer> listaNumeros;
 
-    public OrdenacaoNumeros() {
+    public SomaNumeros() {
         this.listaNumeros = new ArrayList<>();
     }
 
@@ -54,7 +54,7 @@ public class OrdenacaoNumeros {
 
     public static void main(String[] args) {
         // Criando uma instância da classe SomaNumeros
-        OrdenacaoNumeros somaNumeros = new OrdenacaoNumeros();
+        SomaNumeros somaNumeros = new SomaNumeros();
 
         // Adicionando números à lista
         somaNumeros.adicionarNumero(5);
